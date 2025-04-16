@@ -56,13 +56,17 @@ ai:
 
 ## Configuration
 
-Create/modify `config.yaml`:
+Configuration files can be placed in either:
+1. Current working directory: `./config.yaml` (higher priority)
+2. User home directory: `~/.ai-cli/config.yaml`
+
+Example config:
 ```yaml
 ai:
-  apiKey: "your-api-key-here"  # Required
-  model: "deepseek-chat"       # Default model
-  basePath: ""                 # Custom API endpoint
-  stream: false                # Streaming disabled by default
+  apiKey: "your-api-key-here"  # Required: Your API key
+  model: "default-model"      # Default AI model  
+  basePath: ""                # Optional: Custom API endpoint
+  stream: false               # Enable streaming response
 ```
 
 ## Examples

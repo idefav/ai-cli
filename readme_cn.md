@@ -46,13 +46,17 @@ ai:
 
 ## 配置
 
-创建config.yaml文件：
+配置文件可以放在以下位置：
+1. 当前工作目录: `./config.yaml` (优先级更高)
+2. 用户主目录: `~/.ai-cli/config.yaml`
+
+示例配置:
 ```yaml
 ai:
-  apiKey: "your-api-key"
-  model: "deepseek-chat" # 或其他支持的模型
-  basePath: "https://api.deepseek.com" # 可选，自定义API地址
-  stream: false # 是否启用流式输出
+  apiKey: "your-api-key"  # 必填: API密钥
+  model: "deepseek-chat"  # 默认模型
+  basePath: ""            # 可选: 自定义API地址
+  stream: false           # 是否启用流式输出
 ```
 
 ## 示例
