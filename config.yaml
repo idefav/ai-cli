@@ -1,0 +1,6 @@
+# AI CLI 配置
+ai:
+  apiKey: "sk-7198787467bc463d85036e6136c1e076"  # 必填: OpenAI API密钥
+  model: "deepseek-chat"  # 默认模型
+  basePath: "https://api.deepseek.com"  # 可选: 自定义API地址
+  stream: true  # 是否启用流式输出
