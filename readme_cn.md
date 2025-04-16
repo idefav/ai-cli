@@ -1,5 +1,7 @@
 # AI CLI 工具
 
+[English Version](readme.md)
+
 一个基于命令行的AI交互工具，支持流式和非流式响应。
 
 ## 功能特点
@@ -15,7 +17,7 @@
 1. 确保已安装Go (1.16+)
 2. 克隆项目：
    ```bash
-   git clone https://github.com/your-repo/ai-cli.git
+   git clone git@github.com:idefav/ai-cli.git
    cd ai-cli
    ```
 3. 构建项目：
