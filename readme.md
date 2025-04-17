@@ -14,6 +14,7 @@ A command-line AI interaction tool supporting both streaming and non-streaming r
 - Cross-platform support (Windows/Linux/MacOS)
 - Easy configuration via YAML file
 - Clean and intuitive interface
+- Linux-style tab completion (trigger with space+Tab)
 
 ## Installation
 
@@ -100,6 +101,10 @@ build.bat
 ## License
 
 Apache 2.0 License - See [LICENSE](LICENSE) file for details.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for recent updates and changes.
 
 ## Contributing
 

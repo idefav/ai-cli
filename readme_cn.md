@@ -11,6 +11,7 @@
 - 支持流式输出
 - 可配置API端点
 - 支持多种AI模型
+- Linux风格tab补全(空格+Tab触发)
 
 ## 安装
 
@@ -76,3 +77,7 @@ AI回复: 我是一个AI助手...
 ## 许可证
 
 Apache 2.0 - 详见 [LICENSE](LICENSE) 文件
+
+## 变更日志
+
+查看 [CHANGELOG.md](CHANGELOG.md) 了解最新更新和变更
